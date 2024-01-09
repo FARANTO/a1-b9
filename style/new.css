@@ -54,3 +54,8 @@ footer{
 .gifts>h4{
     color: #FF0000;
 }
+.subs{
+    padding: 180px;
+    border-radius: 50px;
+    background: #FF00000D;
+}
