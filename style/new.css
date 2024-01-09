@@ -49,4 +49,8 @@ footer{
     background: #070211;
     color: aliceblue;
     padding: 130px 200px;
+    gap: 100px;
+}
+.gifts>h4{
+    color: #FF0000;
 }
