@@ -1,25 +1,52 @@
-.pONE{
-text-align: center;
-font-size: 88px;
-font-style: normal;
+.pONE {
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
 }
-.imgE{
+.pONE>h1{
+    color: #FF0000;
+}
+
+.imgE {
     position: relative;
-     text-align: center;
-     color: white;
+    text-align: center;
+    color: white;
 }
-.cen{
+
+.imgE>a {
     position: absolute;
-    top:40%;
-    left:50%;
-    transform: translate(-170%,-80%);
+    bottom: 10%;
+    right: 90%;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.cen {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-170%, -80%);
     font-size: 60px;
     font-weight: 800;
 }
-.down-cen{
+
+.down-cen {
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-95%);
     font-size: 25px;
+}
+
+.place {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FF0000, #FF000000;
+}
+footer{
+    display: flex;
+    background: #070211;
+    color: aliceblue;
+    padding: 130px 200px;
 }
